@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="es">
+
+    <head>
+        <meta charset="UTF-8">
+        <title>Encriptador y desencriptador de texto</title>
+        <meta name="viewport" content ="width=device-width">
+        <link rel="stylesheet" href="normalize.css">
+        <link rel="stylesheet" href="Style.CSS">
+        <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap" rel="stylesheet">
+    </head>
+
+    <body>
+        <header>
+            <div class="parte-superior">
+            <a href="index.html"><img src="Imagenes/Logo-1.png" alt="Logo de Alura" class="logo-1" ></a>
+            </div>
+        </header>
+
+        <main>
+            <div id="tablero2">
+                <textarea cols="80" rows="1" class="mensaje-encriptado"></textarea>
+                <input type="submit" value="Copiar" class="boton-copiar">
+                <a href="index.html"><input type="submit" value="&#8634;" class="boton-refresh"> </a> 
+            </div>
+            <div class="tablero">
+                <li id="Cuadro-encriptador">
+                    <img src="Imagenes/Muñeco.png" alt="Imagen referencial" class="muñeco">
+                    <h1>Ningun mensaje fue encontrado</h1>
+                    <p href="Proyecto-1.html">Ingrese el texto que desee encriptar o desencriptar</p>
+                </li>
+            </div>
+            <div class="parte-media" >
+               
+                <input type="text" placeholder="Ingrese el texto aquí" class="texto-1">
+            </div>
+            <div class="advertencia-botones">
+                <p>&#9888 Solo letras minusculas y sin acentos</p>
+            </div>
+            
+            <div id="botones">
+                <input type="submit" value="Encriptar" class="boton-encriptar">
+                
+            </div>
+            <div class="bd">
+                <input type="submit" value="Desencriptar" class="boton-desencriptar">
+            </div>
+   
+        </main>
+
+        <script src="script.js"></script>
+
+    </body>
+
+</html>
+
+            
